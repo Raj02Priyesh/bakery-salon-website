@@ -5,7 +5,7 @@ export const salon: Brand = {
   id: 'salon',
   name: 'Velvet & Vine',
   tagline: 'Hair · Skin · Nails',
-  description: 'A calm, modern salon for cuts, colour, skin and nail care in Koramangala, Bengaluru.',
+  description: 'A calm, modern salon for cuts, colour, skin and nail care in Baner, Pune.',
   icon: '✂️',
   theme: {
     primary: '#2f3e36',
@@ -31,7 +31,7 @@ export const salon: Brand = {
     eyebrow: 'Now booking weekday & weekend slots',
     title: 'Look like you. Only rested.',
     subtitle:
-      'Precision cuts, lived-in colour and skin rituals by senior stylists — in a quiet studio where nobody rushes you.',
+      'Precision cuts, lived-in colour and skin rituals by senior stylists - in a quiet studio where nobody rushes you.',
     image: unsplash('photo-1626379501846-0df4067b8bb9', 1600),
     primaryCta: 'Book an appointment',
     secondaryCta: 'View services',
@@ -44,7 +44,7 @@ export const salon: Brand = {
   ],
   offerings: {
     title: 'Services & prices',
-    subtitle: 'Starting prices — your stylist confirms the final price after a free consultation.',
+    subtitle: 'Starting prices - your stylist confirms the final price after a free consultation.',
     categories: ['Hair', 'Colour', 'Skin', 'Nails', 'Makeup'],
     items: [
       { id: 'haircut', name: 'Signature haircut', category: 'Hair', price: 900, duration: 45,
@@ -81,7 +81,7 @@ export const salon: Brand = {
     ],
     image: unsplash('photo-1647462741268-e5724e5886c0', 1000, 1200),
     stats: [
-      { value: '7 yrs', label: 'in Koramangala' },
+      { value: '7 yrs', label: 'in Baner' },
       { value: '12k+', label: 'happy clients' },
       { value: '4.9★', label: 'average review' },
     ],
@@ -100,15 +100,15 @@ export const salon: Brand = {
   team: {
     title: 'Meet the stylists',
     members: [
-      { name: 'Nisha Fernandes', role: 'Creative director', bio: 'Colour specialist with 14 years of balayage experience.' },
-      { name: 'Arjun Menon', role: 'Senior stylist', bio: 'Precision cuts and men’s grooming, ex-London.' },
-      { name: 'Kavya Reddy', role: 'Skin & makeup artist', bio: 'Certified aesthetician and bridal makeup lead.' },
+      { name: 'Neha Joshi', role: 'Creative director', bio: 'Colour specialist with 14 years of balayage experience.' },
+      { name: 'Arjun Patil', role: 'Senior stylist', bio: 'Precision cuts and men’s grooming, 10 years on the chair.' },
+      { name: 'Kavya Shinde', role: 'Skin & makeup artist', bio: 'Certified aesthetician and bridal makeup lead.' },
     ],
   },
   testimonials: [
-    { quote: 'Nisha finally fixed my colour after years of brassy highlights. I get compliments every week.', author: 'Aditi K.', detail: 'Balayage client', rating: 5 },
+    { quote: 'Neha finally fixed my colour after years of brassy highlights. I get compliments every week.', author: 'Aditi K.', detail: 'Balayage client', rating: 5 },
     { quote: 'Calm, spotless and genuinely on time. The glow facial is worth every rupee.', author: 'Sneha P.', detail: 'Google review', rating: 5 },
-    { quote: 'Kavya did my bridal makeup — it lasted 14 hours through two ceremonies.', author: 'Ritika M.', detail: 'Bridal client', rating: 5 },
+    { quote: 'Kavya did my bridal makeup - it lasted 14 hours through two ceremonies.', author: 'Ritika M.', detail: 'Bridal client', rating: 5 },
   ],
   booking: {
     kind: 'appointment',
@@ -123,20 +123,20 @@ export const salon: Brand = {
     successText: 'We’ll confirm your slot shortly. Need to reschedule? Just reply to our message.',
   },
   faq: [
-    { q: 'Do I need a consultation before colour?', a: 'For balayage and big colour changes, yes — it’s free and takes 15 minutes. We also do a patch test 48 hours before.' },
+    { q: 'Do I need a consultation before colour?', a: 'For balayage and big colour changes, yes - it’s free and takes 15 minutes. We also do a patch test 48 hours before.' },
     { q: 'What is your cancellation policy?', a: 'Free cancellation up to 6 hours before your slot. Late cancellations may need a deposit for future bookings.' },
-    { q: 'Do you offer bridal packages?', a: 'Yes — trials, on-location makeup and group packages for the bridal party. Book at least 4 weeks ahead.' },
+    { q: 'Do you offer bridal packages?', a: 'Yes - trials, on-location makeup and group packages for the bridal party. Book at least 4 weeks ahead.' },
     { q: 'Is there parking?', a: 'Two-wheeler parking on site and paid car parking 100 m away at Forum Mall.' },
   ],
   contact: {
-    address: '3rd Floor, 80 Feet Road, 4th Block, Koramangala',
-    city: 'Bengaluru 560034',
-    phoneDisplay: '+91 80 0000 0001',
+    address: '2nd Floor, Baner Road, Baner',
+    city: 'Pune 411045',
+    phoneDisplay: '+91 20 0000 0001',
     whatsapp: '',
     email: 'studio@velvetandvine.example',
     instagram: 'velvetandvine.example',
-    lat: 12.9352,
-    lng: 77.6245,
+    lat: 18.559,
+    lng: 73.7868,
     timezone: 'Asia/Kolkata',
     hours: {
       0: { open: '10:00', close: '18:00' },

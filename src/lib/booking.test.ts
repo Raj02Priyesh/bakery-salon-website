@@ -65,8 +65,8 @@ describe('message and estimate', () => {
   })
 
   it('includes the stylist for salon bookings', () => {
-    const msg = bookingMessage({ ...emptyRequest('balayage'), name: 'Asha', phone: '9876543210', date: '2025-12-11', time: '11:00', staff: 'Nisha Fernandes' }, salon)
-    expect(msg).toContain('Stylist: Nisha Fernandes')
+    const msg = bookingMessage({ ...emptyRequest('balayage'), name: 'Asha', phone: '9876543210', date: '2025-12-11', time: '11:00', staff: 'Neha Joshi' }, salon)
+    expect(msg).toContain('Stylist: Neha Joshi')
     expect(msg).toContain('book an appointment')
   })
 

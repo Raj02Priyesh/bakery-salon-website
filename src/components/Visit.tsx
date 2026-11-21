@@ -119,7 +119,7 @@ export function Footer({ brand }: { brand: Brand }) {
         </ul>
       </div>
       <p className="mx-auto mt-10 max-w-6xl px-5 text-xs opacity-60">
-        © {YEAR} {brand.name} — a fictional business. Demo website by Priyesh Raj. Photos from Unsplash.
+        © {YEAR} {brand.name} - a fictional business. Demo website by Priyesh Raj. Photos from Unsplash.
       </p>
     </footer>
   )

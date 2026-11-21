@@ -19,7 +19,7 @@ export function applyBrand(brand: Brand) {
   }
   for (const [k, v] of Object.entries(vars)) root.setProperty(k, v)
 
-  document.title = `${brand.name} — ${brand.tagline}`
+  document.title = `${brand.name} - ${brand.tagline}`
   document.querySelector('meta[name="description"]')?.setAttribute('content', brand.description)
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', t.primary)
   const icon = document.querySelector<HTMLLinkElement>('link[rel="icon"]')

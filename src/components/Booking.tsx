@@ -90,7 +90,7 @@ export function Booking({ brand, preselected }: { brand: Brand; preselected: { i
         <Reveal>
           <SectionHeading eyebrow={booking.kind === 'order' ? 'Pre-order' : 'Appointments'} title={booking.title} subtitle={booking.subtitle} />
           <ul className="space-y-3 text-muted">
-            <li>✓ No payment online — pay {booking.kind === 'order' ? 'at pickup' : 'after your visit'}</li>
+            <li>✓ No payment online - pay {booking.kind === 'order' ? 'at pickup' : 'after your visit'}</li>
             <li>✓ At least {booking.minNoticeHours} hours’ notice, please</li>
             <li>✓ Prefer to call? {contact.phoneDisplay}</li>
           </ul>
@@ -111,7 +111,7 @@ export function Booking({ brand, preselected }: { brand: Brand; preselected: { i
                             .filter((o) => o.category === g)
                             .map((o) => (
                               <option key={o.id} value={o.id}>
-                                {o.name} — {o.duration ? 'from ' : ''}
+                                {o.name} - {o.duration ? 'from ' : ''}
                                 {formatPrice(o.price)}
                                 {o.priceNote ? ` (${o.priceNote})` : ''}
                               </option>
